@@ -73,7 +73,7 @@ Check out the documentation for the package you want to use:
 
 > Check out [recipes](packages/vanilla/recipes.md) for commonly asked questions and how to solve them using the standart library!
 
-### Browser support abc
+### Browser support abc release
 
 This library will always have the previous year as its target. For 2021 for example the target will be ES2020.
 It always provides both a `UMD` (`.js`) and `.mjs` version. If you want to support legacy browsers, please use the feature of your bundler to transpile dependencie. In case of webpack and babel (give [vite](https://vitejs.dev/) a try, it's awesome) you'll have to install corresponding plugins such as [babel-plugin-proposal-optional-chaining](https://babeljs.io/docs/en/babel-plugin-proposal-optional-chaining) and include the dependency from `node_modules` which is normally entirely excluded from being processed.
